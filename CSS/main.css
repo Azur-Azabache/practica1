@@ -1,8 +1,9 @@
+/* Modifiqué la fuente y el margen */
 body{
   font-family: courier new;
   margin: 20px;
 }
-
+/* Añadí estilos a la línea horizontal y modifiqué su tamaño*/
 hr {
   height: 5px;
   background-color: black;
@@ -10,35 +11,31 @@ hr {
   margin-bottom: 10px;
   margin-left: 10px;
 }
-
+/* Alteré el margen a el título */
 h3{
   margin-bottom: 0px;
   margin-left: 10px;
 }
-
+/*Cambié de tamaño a las imágenes y les añadí borde y margen*/
 img{
   width: 180px;
   height: 180px;
   border: 1px solid black;
-  opacity: 20px;
-}
-
-.image{
   margin: 10px;
 }
-
+/*Relative me dará el poder de manipular su posición e inline-block hará que se pongan uno al lado del otro*/
 div{
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
-
+/* Con absolute lo sacaré del flujo y podré manipular sus posiciones con right y bottom */
 span{
   position: absolute;
   font-size: 11px;
   right: 12%;
   bottom: 12%;
 }
-
+/* El contenido se situará hasta la mitad de la página */
 .container{
   width: 50%;
 }
