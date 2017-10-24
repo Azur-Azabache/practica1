@@ -18,21 +18,28 @@ h3{
 }
 
 img{
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border: 1px solid black;
+  opacity: 20px;
 }
 
 .image{
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
 }
 
 div{
-box-sizing: border-box;
+position: relative;
 display: inline-block;
 }
 
 span{
-  position: relative;
+  position: absolute;
+  font-size: 11px;
+  right: 12%;
+  bottom: 12%;
+}
 
+.container{
+width: 70%  
 }
