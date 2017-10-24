@@ -1,5 +1,5 @@
 body{
-  font-family: courier new;
+  font-family: courier;
   margin: 20px;
 }
 
@@ -9,6 +9,7 @@ hr {
   width: 70px;
   margin-bottom: 10px;
   margin-left: 10px;
+
 }
 
 h3{
