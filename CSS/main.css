@@ -1,7 +1,8 @@
 /* Modifiqué la fuente y el margen */
 body{
   font-family: courier new;
-  margin: 20px;
+  margin: 10px;
+  padding: 0;
 }
 /* Añadí estilos a la línea horizontal y modifiqué su tamaño*/
 hr {
@@ -20,7 +21,7 @@ h3{
 img{
   width: 180px;
   height: 180px;
-  border: 1px solid black;
+  border: 3px solid black;
   margin: 10px;
 }
 /*Relative me dará el poder de manipular su posición e inline-block hará que se pongan uno al lado del otro*/
@@ -35,7 +36,8 @@ span{
   right: 12%;
   bottom: 12%;
 }
-/* El contenido se situará hasta la mitad de la página */
+/* Alteré el tamñao del contenido*/
 .container{
-  width: 50%;
+width: 700px;
+height: 420px;
 }
